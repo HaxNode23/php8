@@ -54,7 +54,7 @@ And you can run `select` command to switch your active PHP:
 [phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
 applications/projects require different versions of PHP, and you are not using virtual machines.
 
-### Install PHP via Liip's binary installer
+### Install PHP via Liip's binary installer (DEPRECATED)
 
 Another popular option is [php-osx.liip.ch] which provides one liner installation methods for versions 5.3 through 7.3.
 It doesn't overwrite the PHP binaries installed by Apple, but installs everything in a separate location (/usr/local/php5).

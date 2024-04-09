@@ -25,6 +25,16 @@ For Ubuntu distributions, the [PPA by Ondřej Surý][Ondrej Sury PPA] provides s
 
 This will ensure that your system can access and install the latest PHP packages available in the PPA.
 
+You can also switch between PHP versions by modifying your `PATH` variable. Alternatively, you can use [deb-sphp][deb-sphp] to switch PHP versions automatically.
+
+You can also switch between PHP versions manually by updating-alternatives the wanted version:
+
+```
+sudo update-alternatives --set php /usr/bin/php8.2
+sudo update-alternatives --set phar /usr/bin/phar8.2
+sudo update-alternatives --set phar.phar /usr/bin/phar.phar8.2
+```
+
 #### Debian-based distributions
 
 For Debian-based distributions, Ondřej Surý also provides a [bikeshed][bikeshed] (Debian equivalent of a PPA). To add the bikeshed to your system and update it, follow these steps:
@@ -66,3 +76,4 @@ With these steps, your system will be able to install the latest PHP packages fr
 [Ondrej Sury Blog]: https://deb.sury.org/
 [Ondrej Sury PPA]: https://launchpad.net/~ondrej/+archive/ubuntu/php
 [bikeshed]: https://packages.sury.org/php/
+[deb-sphp]: https://github.com/nazares/deb-sphp

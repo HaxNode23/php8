@@ -26,7 +26,7 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 
 ### Contributor Style Guide
 
-1. Use American English spelling (*primary English repo only*).
+1. Use American English spelling (_primary English repo only_).
 2. Use four (4) spaces to indent text; do not use tabs.
 3. Wrap all text to 120 characters.
 4. Code samples should adhere to PSR-1 or higher.
@@ -47,7 +47,7 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 * [Srpski](https://phpsrbija.github.io/php-the-right-way/)
 * [Türkçe](https://hkulekci.github.io/php-the-right-way/)
 * [български](https://bg.phptherightway.com)
-* [Русский язык](https://getjump.github.io/ru-php-the-right-way)
+* [Русский](https://nazares.github.io/php-the-right-way)
 * [Українська](https://iflista.github.io/php-the-right-way/)
 * [العربية](https://adaroobi.github.io/php-the-right-way/)
 * [فارسى](https://novid.github.io/php-the-right-way/)
